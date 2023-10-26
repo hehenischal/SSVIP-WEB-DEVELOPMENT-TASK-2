@@ -35,15 +35,20 @@ nav a {
 }
 
 .product-container {
-    background-color: #fff;
+    background-color: #62D375;
     width: 80%;
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.pdc-1
+{
+    background-color: white;
+}
 
 .product-carousel {
+    background-color: #000;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -76,7 +81,7 @@ nav a {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #D362C0;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -85,7 +90,7 @@ nav a {
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: #c042ab;
 }
 
 .similar-products-container {
@@ -131,9 +136,12 @@ nav a {
     border-radius: 5px;
 }
 .btn-inc:nth-child(odd) {
-    background-color: #333;
+    background-color: #D362C0;
     color: #fff;
     font-weight: bolder;
+}
+.btn-inc:nth-child(odd):hover {
+    background-color: #c042ab;
 }
 .rating-section {
     margin: 20px 0;
