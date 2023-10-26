@@ -9,12 +9,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #C6EFCD;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color:#fff;
+    color: #000;
     text-align: center;
     padding: 20px 0;
 }
@@ -29,7 +29,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -134,4 +134,41 @@ nav a {
     background-color: #333;
     color: #fff;
     font-weight: bolder;
+}
+.rating-section {
+    margin: 20px 0;
+}
+
+.star {
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffc000; /* Change to your preferred star color */
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Style for Review Section */
+.review-section {
+    margin: 20px 0;
+}
+
+.review {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.review h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.review p {
+    font-size: 16px;
+    margin: 10px 0;
 }
